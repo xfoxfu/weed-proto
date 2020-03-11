@@ -1,13 +1,15 @@
 {
   "name": "weed-proto",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.61.0",
   "repository": "https://github.com/xfoxfu/weed-proto.git",
   "author": "Yuze Fu <i@xfox.me>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "grpc-tools": "^1.8.1",
-    "ts-protoc-gen": "^0.12.0"
+    "grpc_tools_node_protoc_ts": "^2.5.10"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.11.4",
+    "grpc": "^1.24.2"
   }
 }

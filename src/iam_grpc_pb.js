@@ -2,7 +2,7 @@
 
 'use strict';
 var grpc = require('grpc');
-var seaweedfs_weed_pb_iam_pb = require('../../../seaweedfs/weed/pb/iam_pb.js');
+var iam_pb = require('./iam_pb.js');
 
 
 // ////////////////////////////////////////////////

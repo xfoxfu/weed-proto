@@ -1,16 +1,24 @@
-// GENERATED CODE -- DO NOT EDIT!
-
 // package: iam_pb
-// file: seaweedfs/weed/pb/iam.proto
+// file: iam.proto
 
-import * as seaweedfs_weed_pb_iam_pb from "../../../seaweedfs/weed/pb/iam_pb";
+/* tslint:disable */
+/* eslint-disable */
+
 import * as grpc from "grpc";
+import * as iam_pb from "./iam_pb";
 
 interface ISeaweedIdentityAccessManagementService extends grpc.ServiceDefinition<grpc.UntypedServiceImplementation> {
 }
 
+
 export const SeaweedIdentityAccessManagementService: ISeaweedIdentityAccessManagementService;
 
-export class SeaweedIdentityAccessManagementClient extends grpc.Client {
-  constructor(address: string, credentials: grpc.ChannelCredentials, options?: object);
+export interface ISeaweedIdentityAccessManagementServer {
+}
+
+export interface ISeaweedIdentityAccessManagementClient {
+}
+
+export class SeaweedIdentityAccessManagementClient extends grpc.Client implements ISeaweedIdentityAccessManagementClient {
+    constructor(address: string, credentials: grpc.ChannelCredentials, options?: object);
 }
